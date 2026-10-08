@@ -1,0 +1,28 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "web",
+      "runtimeExecutable": "C:\\nvm4w\\nodejs\\corepack.cmd",
+      "runtimeArgs": [
+        "pnpm",
+        "--filter",
+        "@samara/web",
+        "dev"
+      ],
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "admin",
+      "runtimeExecutable": "C:\\nvm4w\\nodejs\\corepack.cmd",
+      "runtimeArgs": [
+        "pnpm",
+        "--filter",
+        "@samara/admin",
+        "dev"
+      ],
+      "port": 3100
+    }
+  ]
+}

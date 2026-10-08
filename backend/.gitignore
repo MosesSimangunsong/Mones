@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Test & tooling caches
+.pytest_cache/
+pytest_temp/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets & local env (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Local runtime data (SQLite market cache)
+data/*.db
+data/*.db-journal
+data/*.sqlite3
+
+# Local backup copies
+*.backup.py
+*.backup
+
+# Logs
+*.log
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
